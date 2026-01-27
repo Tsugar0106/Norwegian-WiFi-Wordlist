@@ -8,10 +8,10 @@ A 20 million entry wordlist optimized for Norwegian WiFi networks, designed for 
 
 ## What's New in v2.0
 
-- **Telenor pattern discovered**: `adjective + 3digits + noun` (Norwegian words)
-- **Number priority optimization**: 5XX-6XX tested first (based on statistical analysis)
-- **ASCII-safe Norwegian**: No æøå for maximum compatibility
-- **20.3M passwords** with research-backed word categories
+- **Telenor pattern discovered**: `adjective + 3digits + noun` (Norwegian with æøå)
+- **ISP priority**: Telenor patterns tested first (35-40% market share in cities)
+- **Number priority**: 5XX-6XX tested first (based on statistical analysis)
+- **20.1M passwords** with all V1 categories plus new ISP patterns
 
 ## Features
 
@@ -19,6 +19,7 @@ A 20 million entry wordlist optimized for Norwegian WiFi networks, designed for 
 - **Norwegian-specific patterns**: names, places, football teams, cultural words
 - **ISP default patterns**: Telenor (adj+digits+noun), Netgear (adj+noun+digits)
 - **Keyboard walks**: Norwegian keyboard layout patterns
+- **L33t speak**: h3mm3lig, pa55ord variants
 
 ## Quick Start
 
@@ -41,11 +42,11 @@ aircrack-ng -w norwegian_wifi_v2.txt capture.cap
 
 ## ISP Default Password Patterns
 
-### Telenor (Norwegian ISP)
+### Telenor (Norwegian ISP - 35-40% market share)
 ```
 Structure: adjective + 3digits + noun
-Examples:  gra542rev, bla891fjord, stor367elg
-Language:  Norwegian (ASCII-safe)
+Examples:  grå542rev, blå891bjørn, mørk367snø
+Language:  Norwegian (with æøå)
 ```
 
 ### Netgear (Common worldwide)
@@ -60,12 +61,15 @@ Language:  English
 The wordlist is ordered from most to least likely:
 
 1. **Top weak passwords** - qwerty123 (#1 in Norway), 123456, passord
-2. **Keyboard walks** - Norwegian layout patterns
-3. **Name + year** - Ole2024, Lars1990, Kari2023
-4. **Place names** - Oslo123, Bergen2024, Trondheim
-5. **Football teams** - Rosenborg, Valerenga, Brann + numbers
-6. **Telenor patterns** - gra542rev, bla891fjord (~6M)
-7. **Netgear patterns** - quietunicorn604, reddragon123 (~14M)
+2. **Keyboard walks** - Norwegian layout patterns (æøå)
+3. **Telenor patterns** - grå542rev, blå891bjørn (~5.8M)
+4. **Netgear patterns** - quietunicorn604, reddragon123 (~14.3M)
+5. **Name + year** - Ole2024, Lars1990, Kari2023
+6. **Place names** - Oslo123, Bergen2024, Tromsø
+7. **Football teams** - Rosenborg, Vålerenga, Lillestrøm + numbers
+8. **Norwegian words** - fjord, hytte, sommer + variants
+9. **Compound words** - sommerhytte, vintertur, fjelltur
+10. **L33t speak** - h3mm3lig, pa55ord
 
 ## Number Priority (Research-Based)
 
