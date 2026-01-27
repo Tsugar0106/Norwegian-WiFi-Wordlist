@@ -31,6 +31,9 @@ wifite --dict norwegian_wifi_v2.txt --no-wps --kill
 
 # Use with hashcat
 hashcat -m 22000 -a 0 capture.hc22000 norwegian_wifi_v2.txt
+
+# Use with aircrack-ng
+aircrack-ng -w norwegian_wifi_v2.txt capture.cap
 ```
 
 ## ISP Default Password Patterns
@@ -62,11 +65,23 @@ Language:  English
 9. **Compound words** - sommerhytte, fjelltur
 10. **L33t speak** - h3mm3lig, pa55ord
 
+## Sample
+
+See `norwegian_wifi_sample_100k.txt` for the first 100,000 entries.
+
+## Research Sources
+
+- 26+ confirmed Netgear passwords (eBay photos, hashcat forum)
+- WoNDeR-List research (Mike Allen)
+- NetgearKiller wordlist analysis (fyy0r)
+- NordPass Norwegian password statistics
+- First-hand Telenor router observation
+
 ## Legal Disclaimer
 
 ⚠️ **For authorized security testing only.** 
 
-Only use this wordlist on networks you own or have explicit written permission to test.
+Only use this wordlist on networks you own or have explicit written permission to test. Unauthorized access to computer networks is illegal.
 
 ## License
 
